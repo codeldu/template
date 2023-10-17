@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+nav p span {
+    background-color: black;
+    color: white;
+    padding: 0 5px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    /* background-color: red; */
+    /* height: 300px; */
+    justify-content: space-between;
+}
+
+.container section {
+    width: 65%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.container aside {
+    width: 30%;
+    /* background-color: black; */
+    /* height: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.sections {
+    width: 100%;
+    border: 2px solid black;
+    height: 500px;
+}
+
+.post {
+    width: 100%;
+    height: 380px;
+    border: 1px solid black;
+}
+
+.name {
+    width: 100%;
+    height: 380px;
+    border: 1px solid black;
+}
+
+.tag {
+    width: 100%;
+    height: 160px;
+    border: 1px solid black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgb(167, 160, 160);
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.buttons button{
+    border: 0px solid white;
+    background-color: black;
+    color: white;
+    padding: 0 40px;
+    height: 40px;
+    
+}
+
+@media  screen and (max-width: 985px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container section {
+        width: 100%;
+    }
+
+    .container aside {
+        width: 100%;
+    }
+}
